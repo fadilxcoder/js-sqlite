@@ -1,0 +1,1 @@
+- DB PATH : `C:\Users\<USER>\AppData\Local\Google\Chrome\User Data\Default\databases\<FOLDER_OF_DB>`
