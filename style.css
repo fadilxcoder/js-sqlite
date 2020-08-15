@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+html, body{
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+main{
+    width: calc(100% - 50px);
+    margin: 0 auto;
+}
+main h1{
+    text-align: center;
+    font-size: 40px;
+}
+main #form-token{
+    padding: 0px 15px;
+    margin-bottom: 25px;
+}
+main #form-token label{
+    display: block;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 17px;
+    color: #787b7d;
+}
+main #form-token input{
+    width: 75px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px dashed #0d0e0e;
+    margin: 0 auto;
+    display: block;
+    outline: none;
+    letter-spacing: 5px;
+}
+
+main .btn-wrapper {
+    text-align: center;
+    margin: 25px 10px 0px 10px;
+}
+main #form-token button{
+    display: inline-block;
+    padding: 5px 15px;
+    color: black;
+    background: grey;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+
+#show-token{
+    font-size: 50px;
+    margin: 10px 0px;
+    text-align: center;
+    letter-spacing: 20px;
+}
+
+#results{
+    width: 300px;
+    margin: 0 auto;
+}
+
+#results span{
+    display: block;
+    width: 100%;
+}
+
+#results span a{
+    margin: 0px 5px;
+}
+
+#results span::before{
+    content: '-';
+}
+
+@media (max-width: 319px) {
+    body{
+        display: none;
+    }
+    html::after{
+        content: 'Low screen resolution';
+        position: fixed;
+        top: 50px;
+        right: 5px;
+        left: 5px;
+        text-align: center;
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+    main{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
