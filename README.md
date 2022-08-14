@@ -9,3 +9,7 @@
 - Github secret
 - - `SURGE_TOKEN` : `3344XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX91d`
 - - `SURGE_DOMAIN` : `https://js-sqlite.surge.sh/`
+
+# URL
+- https://fadilxcoder.github.io/js-sqlite/ - Default GA
+- https://js-sqlite.surge.sh/ - Personalize GA
