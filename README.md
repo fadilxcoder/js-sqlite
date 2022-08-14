@@ -11,5 +11,13 @@
 - - `SURGE_DOMAIN` : `https://js-sqlite.surge.sh/`
 
 # URL
+
 - https://fadilxcoder.github.io/js-sqlite/ - Default GA
 - https://js-sqlite.surge.sh/ - Personalize GA
+
+# Surge.sh Docs
+
+- https://surge.sh/help/getting-started-with-surge (Documentation)
+- `.surgeignore` to ignore file
+- `surge list` listing all projects
+- `surge teardown xxxxxxx.surge.sh` - Remove a project
