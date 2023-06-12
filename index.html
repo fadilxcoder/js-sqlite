@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Typescript | CRUD</title>
+		<meta name="Description" content=""/>
+		<meta name="Keywords" content=""/>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="author" content="fadilxcoder" />
+		<meta name="copyright" content="" />
+		<meta name="robots" content="index,follow"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+        <link rel="icon" href="./favicon.png">
+	</head>
+	<body>
+        <body>
+            <main class="container">
+                <h1>TYPESCRIPT - SQLITE - CRUD</h1>
+                <div id="form-token">
+                    <input type="hidden" id="id" name="id"/>
+                    <input type="text" name="token" id="token" inputmode="tel" pattern="[0-9]*" autocomplete="one-time-code" maxlength="6"/>
+                    <div class="grid">
+                        <a id="generate" href="#" role="button">NEW</a>
+                        <a id="reset" href="#" role="button">RESET</a>
+                        <a id="update" href="#" role="button">UPDATE</a>
+                        <a id="insert" href="#" role="button">INSERT</a>
+                        <a id="drop" href="#" role="button">DROP</a>
+                    </div>
+                </div>
+                <br/><hr/>
+                <div id="result-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Token</th>
+                                <th scope="col">Date</th>
+                                <th scope="col">-</th>
+                                <th scope="col">-</th>
+                            </tr>
+                        </thead>
+                        <tbody id="results"></tbody>
+                    </table>
+                </div>
+            </main>
+        </body>
+        <script src="./dist/scripts.js"></script>
+	</body>
+</html>

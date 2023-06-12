@@ -1,0 +1,22 @@
+{
+  "name": "typescript-sqlite",
+  "version": "1.0.0",
+  "description": "typescript SQLite CRUD",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "./node_modules/.bin/webpack"
+  },
+  "author": "fadilxcoder",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^9.4.3",
+    "typescript": "^5.0.4",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.5.16",
+    "@types/websql": "^0.0.27",
+    "jquery": "^3.7.0"
+  }
+}
