@@ -24,7 +24,7 @@ export class TokenCrudHandler
         $(document).on('click', '#insert', function(e) {
             e.preventDefault();
             thisObj.create();
-            thisObj.read();
+            thisObj._loadAndReset();
         });
 
         // Load UI to update
